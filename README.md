@@ -32,3 +32,15 @@ gradle bootrun
 - Liquibasge
 - Junit 5 (Jupiter API)
 - RabbitMQ
+
+### sonarqube
+
+- Run sonarqube to analyze the code
+
+```bash
+ ./gradlew sonarqube \
+  -Dsonar.projectKey=warren-buffet \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=91693d5c49a685272a55be45c93b075189d7e18a
+
+```
